@@ -20,7 +20,6 @@
     UIView * v ;
     v.x =100;
     
-    
     NSLog(@"UIViewCategoryDemo");
 
 }

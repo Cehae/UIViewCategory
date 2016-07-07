@@ -18,6 +18,8 @@
 		A8DC38841D2E43DF00F7473E /* UIView+CornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DC38801D2E43DF00F7473E /* UIView+CornerRadius.m */; };
 		A8DC38891D2E452700F7473E /* dog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A8DC38881D2E452700F7473E /* dog.jpg */; };
 		A8DC388C1D2E45FF00F7473E /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DC388B1D2E45FF00F7473E /* UIView+Frame.m */; };
+		A8DC38D81D2E54F400F7473E /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = A8DC38D61D2E54F400F7473E /* 0.png */; };
+		A8DC38D91D2E54F400F7473E /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = A8DC38D71D2E54F400F7473E /* 1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,8 @@
 		A8DC38881D2E452700F7473E /* dog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dog.jpg; sourceTree = "<group>"; };
 		A8DC388A1D2E45FF00F7473E /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
 		A8DC388B1D2E45FF00F7473E /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		A8DC38D61D2E54F400F7473E /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0.png; sourceTree = "<group>"; };
+		A8DC38D71D2E54F400F7473E /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +178,8 @@
 		A8DC38871D2E452700F7473E /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				A8DC38D61D2E54F400F7473E /* 0.png */,
+				A8DC38D71D2E54F400F7473E /* 1.png */,
 				A8DC38881D2E452700F7473E /* dog.jpg */,
 			);
 			path = Source;
@@ -283,7 +289,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8DC38891D2E452700F7473E /* dog.jpg in Resources */,
+				A8DC38D81D2E54F400F7473E /* 0.png in Resources */,
 				A8DC385B1D2E43A000F7473E /* LaunchScreen.storyboard in Resources */,
+				A8DC38D91D2E54F400F7473E /* 1.png in Resources */,
 				A8DC38581D2E43A000F7473E /* Assets.xcassets in Resources */,
 				A8DC38561D2E43A000F7473E /* Main.storyboard in Resources */,
 			);
