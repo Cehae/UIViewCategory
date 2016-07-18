@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A857FBFF1D3C9EAA0055C8B9 /* NSDate+WDDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A857FBFE1D3C9EAA0055C8B9 /* NSDate+WDDExtension.m */; };
 		A8DC384D1D2E43A000F7473E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DC384C1D2E43A000F7473E /* main.m */; };
 		A8DC38501D2E43A000F7473E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DC384F1D2E43A000F7473E /* AppDelegate.m */; };
 		A8DC38531D2E43A000F7473E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DC38521D2E43A000F7473E /* ViewController.m */; };
@@ -40,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A857FBFD1D3C9EAA0055C8B9 /* NSDate+WDDExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+WDDExtension.h"; sourceTree = "<group>"; };
+		A857FBFE1D3C9EAA0055C8B9 /* NSDate+WDDExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+WDDExtension.m"; sourceTree = "<group>"; };
 		A8DC38481D2E43A000F7473E /* UIViewCategoryDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIViewCategoryDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8DC384C1D2E43A000F7473E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A8DC384E1D2E43A000F7473E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -91,6 +94,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A857FBFC1D3C9E800055C8B9 /* NSDateExtension */ = {
+			isa = PBXGroup;
+			children = (
+				A857FBFD1D3C9EAA0055C8B9 /* NSDate+WDDExtension.h */,
+				A857FBFE1D3C9EAA0055C8B9 /* NSDate+WDDExtension.m */,
+			);
+			path = NSDateExtension;
+			sourceTree = "<group>";
+		};
 		A8DC383F1D2E43A000F7473E = {
 			isa = PBXGroup;
 			children = (
@@ -114,6 +126,7 @@
 		A8DC384A1D2E43A000F7473E /* UIViewCategoryDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A857FBFC1D3C9E800055C8B9 /* NSDateExtension */,
 				A8DC38871D2E452700F7473E /* Source */,
 				A8DC387E1D2E43DF00F7473E /* UIViewCornerRadius */,
 				A8DC38811D2E43DF00F7473E /* UIviewFrame */,
@@ -318,6 +331,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A857FBFF1D3C9EAA0055C8B9 /* NSDate+WDDExtension.m in Sources */,
 				A8DC388C1D2E45FF00F7473E /* UIView+Frame.m in Sources */,
 				A8DC38531D2E43A000F7473E /* ViewController.m in Sources */,
 				A8DC38841D2E43DF00F7473E /* UIView+CornerRadius.m in Sources */,
