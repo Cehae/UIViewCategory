@@ -21,6 +21,9 @@
 		A8DC388C1D2E45FF00F7473E /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = A8DC388B1D2E45FF00F7473E /* UIView+Frame.m */; };
 		A8DC38D81D2E54F400F7473E /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = A8DC38D61D2E54F400F7473E /* 0.png */; };
 		A8DC38D91D2E54F400F7473E /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = A8DC38D71D2E54F400F7473E /* 1.png */; };
+		BE731DEF1DD9CE2A0086A184 /* UITextView+WDPlaceholder.m in Sources */ = {isa = PBXBuildFile; fileRef = BE731DE91DD9CE2A0086A184 /* UITextView+WDPlaceholder.m */; };
+		BE731DF01DD9CE2A0086A184 /* NSDictionary+Property.m in Sources */ = {isa = PBXBuildFile; fileRef = BE731DEC1DD9CE2A0086A184 /* NSDictionary+Property.m */; };
+		BE731DF11DD9CE2A0086A184 /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = BE731DEE1DD9CE2A0086A184 /* Foundation+Log.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +70,11 @@
 		A8DC388B1D2E45FF00F7473E /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		A8DC38D61D2E54F400F7473E /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0.png; sourceTree = "<group>"; };
 		A8DC38D71D2E54F400F7473E /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		BE731DE81DD9CE2A0086A184 /* UITextView+WDPlaceholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+WDPlaceholder.h"; sourceTree = "<group>"; };
+		BE731DE91DD9CE2A0086A184 /* UITextView+WDPlaceholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+WDPlaceholder.m"; sourceTree = "<group>"; };
+		BE731DEB1DD9CE2A0086A184 /* NSDictionary+Property.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Property.h"; sourceTree = "<group>"; };
+		BE731DEC1DD9CE2A0086A184 /* NSDictionary+Property.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Property.m"; sourceTree = "<group>"; };
+		BE731DEE1DD9CE2A0086A184 /* Foundation+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+Log.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +134,9 @@
 		A8DC384A1D2E43A000F7473E /* UIViewCategoryDemo */ = {
 			isa = PBXGroup;
 			children = (
+				BE731DE71DD9CE2A0086A184 /* UITextView+WDPlaceholder */,
+				BE731DEA1DD9CE2A0086A184 /* NSDictionary+Property */,
+				BE731DED1DD9CE2A0086A184 /* 中文输出 */,
 				A857FBFC1D3C9E800055C8B9 /* NSDateExtension */,
 				A8DC38871D2E452700F7473E /* Source */,
 				A8DC387E1D2E43DF00F7473E /* UIViewCornerRadius */,
@@ -196,6 +207,32 @@
 				A8DC38881D2E452700F7473E /* dog.jpg */,
 			);
 			path = Source;
+			sourceTree = "<group>";
+		};
+		BE731DE71DD9CE2A0086A184 /* UITextView+WDPlaceholder */ = {
+			isa = PBXGroup;
+			children = (
+				BE731DE81DD9CE2A0086A184 /* UITextView+WDPlaceholder.h */,
+				BE731DE91DD9CE2A0086A184 /* UITextView+WDPlaceholder.m */,
+			);
+			path = "UITextView+WDPlaceholder";
+			sourceTree = "<group>";
+		};
+		BE731DEA1DD9CE2A0086A184 /* NSDictionary+Property */ = {
+			isa = PBXGroup;
+			children = (
+				BE731DEB1DD9CE2A0086A184 /* NSDictionary+Property.h */,
+				BE731DEC1DD9CE2A0086A184 /* NSDictionary+Property.m */,
+			);
+			path = "NSDictionary+Property";
+			sourceTree = "<group>";
+		};
+		BE731DED1DD9CE2A0086A184 /* 中文输出 */ = {
+			isa = PBXGroup;
+			children = (
+				BE731DEE1DD9CE2A0086A184 /* Foundation+Log.m */,
+			);
+			path = "中文输出";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -332,11 +369,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A857FBFF1D3C9EAA0055C8B9 /* NSDate+WDDExtension.m in Sources */,
+				BE731DF01DD9CE2A0086A184 /* NSDictionary+Property.m in Sources */,
 				A8DC388C1D2E45FF00F7473E /* UIView+Frame.m in Sources */,
 				A8DC38531D2E43A000F7473E /* ViewController.m in Sources */,
 				A8DC38841D2E43DF00F7473E /* UIView+CornerRadius.m in Sources */,
+				BE731DF11DD9CE2A0086A184 /* Foundation+Log.m in Sources */,
 				A8DC38501D2E43A000F7473E /* AppDelegate.m in Sources */,
 				A8DC384D1D2E43A000F7473E /* main.m in Sources */,
+				BE731DEF1DD9CE2A0086A184 /* UITextView+WDPlaceholder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
